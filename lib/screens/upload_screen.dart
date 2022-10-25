@@ -118,7 +118,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 suffixIcon: IconButton(
                   icon: Icon(Icons.clear),
                   onPressed: () {
-                    _documentNameController.clear();
+                    _documentQauntityController.clear();
                   },
                 ),
               ),
