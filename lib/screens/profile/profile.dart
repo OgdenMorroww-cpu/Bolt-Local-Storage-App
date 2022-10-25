@@ -35,10 +35,10 @@ class ProfileScreen extends StatelessWidget {
             SizedBox(height: 12.5),
             Container(
               child: Text(
-                "Email: ${user.displayName}",
+                "Email: ${user.email}",
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: 25.8,
+                  fontSize: 20.8,
                   fontWeight: FontWeight.bold,
                 ),
               ),
