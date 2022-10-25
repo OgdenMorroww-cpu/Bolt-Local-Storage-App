@@ -52,9 +52,9 @@ class WelcomePage extends StatelessWidget {
                   textColor: Colors.black,
                   color: Colors.white,
                   child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       Icon(FontAwesomeIcons.bolt),
-                      SizedBox(width: 35.8),
                       Text(
                         "Get started with bolt",
                         style: TextStyle(

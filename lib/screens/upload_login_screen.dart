@@ -74,9 +74,9 @@ class _UploadScreenState extends State<UploadScreen> {
                         ),
                         elevation: 0.0,
                         child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
                             Icon(FontAwesomeIcons.google),
-                            SizedBox(width: 29.5),
                             Text(
                               "Sign in with google",
                               style: TextStyle(
